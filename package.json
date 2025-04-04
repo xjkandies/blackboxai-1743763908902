@@ -1,0 +1,13 @@
+{
+  "name": "music-distribution-platform",
+  "version": "1.0.0",
+  "description": "Full-stack application for music distribution management",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && nodemon app.js",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
